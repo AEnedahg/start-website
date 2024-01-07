@@ -1,0 +1,10 @@
+@mixin talents-card {
+  width: 252px;
+  height: 299px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+@mixin services-card {
+  width: 100%;
+  height: 542px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}

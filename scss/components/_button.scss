@@ -1,0 +1,87 @@
+@mixin hero-btn {
+  background-color: $clr-neutral-0;
+  color: $clr-neutral-1000;
+  outline: none;
+  border: none;
+  width: 170px;
+  height: 48px;
+  transition: ease 0.3s;
+  cursor: pointer;
+  &:hover {
+    background-color: darken($clr-neutral-0, 15%);
+  }
+  a {
+    color: inherit;
+    font: {
+      size: 2rem;
+      family: $ff-work-sans;
+      weight: map-get($weights, regular);
+    }
+  }
+  &:hover {
+    background-color: lighten($clr-neutral-900, 15%);
+  }
+}
+@mixin partners-and-talents-btn {
+  width: 170px;
+  height: 48px;
+  background-color: $clr-neutral-900;
+  color: $clr-neutral-0;
+  border: none;
+  outline: none;
+  transition: ease 0.3s;
+  cursor: pointer;
+  a {
+    color: inherit;
+    font: {
+      family: $ff-work-sans;
+      size: 2rem;
+      weight: map-get($weights, regular);
+    }
+  }
+  &:hover {
+    background-color: lighten($clr-neutral-900, 15%);
+  }
+}
+@mixin lorem-one-and-two-btn {
+  width: 170px;
+  height: 48px;
+  background-color: $clr-neutral-900;
+  color: $clr-neutral-0;
+  border: none;
+  outline: none;
+  transition: ease 0.3s;
+  cursor: pointer;
+  a {
+    color: inherit;
+    font: {
+      family: $ff-work-sans;
+      size: 2rem;
+      weight: map-get($weights, regular);
+    }
+  }
+  &:hover {
+    background-color: lighten($clr-neutral-900, 15%);
+  }
+}
+@mixin contact-btn {
+  width: 100%;
+  height: 48px;
+  background-color: $clr-neutral-900;
+  color: $clr-neutral-0;
+  border: none;
+  outline: none;
+  transition: ease 0.3s;
+  cursor: pointer;
+  a {
+    color: inherit;
+    font: {
+      family: $ff-work-sans;
+      size: 2rem;
+      weight: map-get($weights, regular);
+    }
+  }
+  &:hover {
+    background-color: lighten($clr-neutral-900, 15%);
+  }
+}

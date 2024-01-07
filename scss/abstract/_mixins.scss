@@ -1,0 +1,163 @@
+@import '../abstract/variables', '../base/reset';
+@mixin nav-link {
+  font: {
+    family: $ff-work-sans;
+    weight: map-get($weights, regular);
+    size: 2rem;
+  }
+  line-height: 125%;
+  color: $clr-neutral-0;
+  transition: ease 0.3s;
+  &:hover {
+    color: darken($clr-neutral-0, 15%);
+  }
+}
+@mixin preheading {
+  font: {
+    family: $ff-work-sans;
+    weight: map-get($weights, bold);
+    size: 1.6rem;
+  }
+  line-height: 125%;
+  color: $clr-neutral-0;
+  letter-spacing: 5px;
+}
+@mixin hero-heading {
+  font: {
+    family: $ff-crimson-text;
+    weight: map-get($weights, bold);
+    size: 4rem;
+  }
+  line-height: 125%;
+  color: $clr-neutral-0;
+}
+@mixin hero-para {
+  font: {
+    family: $ff-work-sans;
+    weight: map-get($weights, regular);
+    size: 1.5rem;
+  }
+  line-height: 125%;
+  color: $clr-neutral-0;
+}
+@mixin partners-and-talents-heading {
+  font: {
+    family: $ff-crimson-text;
+    weight: map-get($weights, bold);
+    size: 4rem;
+  }
+  color: $clr-neutral-1000;
+  line-height: 125%;
+}
+@mixin partners-and-talents-para {
+  font: {
+    family: $ff-work-sans;
+    size: 2rem;
+    weight: map-get($weights, regular);
+  }
+  line-height: 125%;
+  color: $clr-neutral-1000;
+}
+@mixin lorem-one-and-two-heading {
+  font: {
+    family: $ff-crimson-text;
+    size: 4rem;
+    weight: map-get($weights, semi-bold);
+  }
+  color: $clr-neutral-900;
+  line-height: 125%;
+}
+@mixin lorem-one-and-two-para {
+  color: $clr-neutral-400;
+  line-height: 125%;
+  font: {
+    size: 1.5rem;
+    weight: map-get($weights, regular);
+    family: $ff-work-sans;
+  }
+}
+@mixin talents-card-name {
+  font: {
+    family: $ff-crimson-text;
+    size: 2.4rem;
+    weight: map-get($weights, bold)
+  }
+  line-height: 125%;
+  color: $clr-neutral-900;
+}
+@mixin talents-card-title {
+  font: {
+    family: $ff-work-sans;
+    size: 1.4rem;
+    weight: map-get($weights,regular);
+  }
+  line-height: 125%;
+  color: $clr-neutral-600;
+}
+@mixin footer-social-icons {
+  font-size: 2.6rem;
+  color: $clr-neutral-0;
+}
+@mixin footer-copyright {
+  font: {
+    size: 2rem;
+    weight: map-get($weights, regular);
+    family: $ff-work-sans;
+  }
+  color: $clr-neutral-0;
+  line-height: 125%;
+}
+@mixin services-card-preheading {
+  font: {
+    family: $ff-work-sans;
+    size: 1.5rem;
+    weight: map-get($weights, regular);
+  }
+  color: $clr-neutral-1000;
+  line-height: 125%;
+}
+@mixin services-card-heading {
+  font: {
+    family: $ff-work-sans;
+    weight: bold;
+    size: 4rem;
+  }
+  color: $clr-neutral-1000;
+  line-height: 125%;
+  span {
+    font: {
+      family: $ff-work-sans;
+      size: 1.5rem;
+      weight: map-get($weights, regular);
+    }
+    color: $clr-neutral-400;
+    line-height: 125%;
+  }
+}
+@mixin services-card-para {
+  font: {
+    family: $ff-work-sans;
+    weight: map-get($weights, regular);
+    size: 1.5rem;
+  }
+  color: $clr-neutral-400;
+  line-height: 125%;
+}
+@mixin services-card-list {
+  font: {
+    family: $ff-work-sans;
+    weight: map-get($weights, regular);
+    size: 1.5rem
+  }
+  color: $clr-neutral-900;
+  line-height: 125%;
+}
+@mixin contact-label {
+  font: {
+    family: $ff-work-sans;
+    size: 2rem;
+    weight: map-get($weights, regular);
+  }
+  color: $clr-neutral-1000;
+}
+

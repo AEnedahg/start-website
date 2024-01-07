@@ -1,0 +1,163 @@
+.lorem-two {
+  padding: 74px 130px 102px;
+  display: flex;
+  &__left {
+    margin: 155px 110px 155px 0;
+    width: 45%;
+    &--heading {
+      @include lorem-one-and-two-heading;
+      margin-bottom: 16px;
+    }
+    &--para {
+      @include lorem-one-and-two-para;
+      margin-bottom: 16px;
+    }
+    &--btn {
+      @include lorem-one-and-two-btn;
+    }
+  }
+  &__right {
+    width: 55%;
+    &--illustration {
+      width: 100%;
+    }
+  }
+}
+/* xs-phone */
+@media (min-width: 320px) and (max-width: 374px) {
+  .lorem-two {
+    padding-top: 0;
+    flex-direction: column-reverse;
+    padding-left: 20px;
+    padding-right: 20px;
+    &__left {
+      width: 100%;
+      margin-top: 80px;
+    }
+    &__right {
+      width: 100%;
+    }
+  }
+  .lorem-two__left--heading {
+    font-size: 2.4rem;
+  }
+}
+/* phone */
+@media (min-width: 375px) and (max-width: 474px) {
+  .lorem-two {
+    padding-top: 0;
+    flex-direction: column-reverse;
+    padding-left: 20px;
+    padding-right: 20px;
+    &__left {
+      width: 100%;
+      margin-top: 80px;
+    }
+    &__right {
+      width: 100%;
+    }
+  }
+  .lorem-two__left--heading {
+    font-size: 2.4rem;
+  }
+}
+/* xs */
+@media (min-width: 475px) and (max-width: 639px) {
+  .lorem-two {
+    padding-top: 0;
+    flex-direction: column-reverse;
+    padding-left: 40px;
+    padding-right: 40px;
+    &__left {
+      width: 100%;
+      margin-top: 80px;
+    }
+    &__right {
+      width: 100%;
+    }
+  }
+  .lorem-two__left--heading {
+    font-size: 3.4rem;
+  }
+}
+/* sm */
+@media (min-width: 640px) and (max-width: 767px) {
+  .lorem-two {
+    padding-top: 0;
+    flex-direction: column-reverse;
+    padding-left: 60px;
+    padding-right: 60px;
+    &__left {
+      width: 100%;
+      margin-top: 80px;
+    }
+    &__right {
+      width: 100%;
+    }
+  }
+}
+/* md */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .lorem-two {
+    padding-top: 0;
+    flex-direction: column-reverse;
+    padding-left: 60px;
+    padding-right: 60px;
+    &__left {
+      width: 100%;
+      margin-top: 80px;
+      &--heading {
+        text-align: center;
+      }
+      &--para {
+        text-align: center;
+      }
+      &--btn {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+    &__right {
+      width: 100%;
+    }
+  }
+}
+/* lg */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .lorem-two {
+    flex-direction: column-reverse;
+    padding-left: 100px;
+    padding-right: 100px;
+    &__left {
+      width: 100%;
+      margin-top: 80px;
+      &--heading {
+        text-align: center;
+      }
+      &--para {
+        text-align: center;
+      }
+      &--btn {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+    &__right {
+      width: 100%;
+    }
+  }
+}
+/* xl */
+@media (min-width: 1280px) and (max-width: 1439px) {
+
+}
+/* 2xl */
+@media (min-width:1440px) and (max-width: 1536px) {
+  
+}
+/* 3xl */
+@media (min-width: 1537px) {
+
+}
